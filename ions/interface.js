@@ -5,7 +5,7 @@
     { it: "ionify.net user interface"
     , by: "Michael Lee, iskitz.com, @iskitz"
     , in: "San Jose, California, USA, Earth"
-    , at: "2015.10.23...12.05-07.00"
+    , at: "2016.11.13-08...2015.10.23-07.00"
     },
   todo:
     [ "No scroll main view"
@@ -21,6 +21,7 @@
   get : ["layout", "labels", "colors", "media"],
   then: "render",
 
+  title: document.title = "+['o . o'];",
 
   activate:
     function activate () {
